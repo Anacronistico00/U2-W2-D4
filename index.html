@@ -23,9 +23,1221 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <div>
-      <i data-feather="activity"></i>
-    </div>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand order-0" href="#"
+            ><img src="assets/imgs/logo.svg" alt=""
+          /></a>
+          <button
+            class="navbar-toggler ms-auto order-1"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex justify-content-between align-items-center"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="dropdown-text">Browse</span>
+                  <span class="dropdown-arrow ms-2"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex justify-content-between align-items-center"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="dropdown-text">Landings</span>
+                  <span class="dropdown-arrow ms-2"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex justify-content-between align-items-center"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="dropdown-text">Pages</span>
+                  <span class="dropdown-arrow ms-2"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle d-flex justify-content-between align-items-center"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <span class="dropdown-text">Accounts</span>
+                  <span class="dropdown-arrow ms-2"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div
+              class="profile w-25 d-flex align-items-center justify-content-end pb-3 ms-auto"
+            >
+              <div class="position-relative">
+                <i data-feather="bell" class="bell"></i>
+                <span
+                  class="badge rounded-circle bg-purple position-absolute top-0 start-50 p-2"
+                >
+                </span>
+              </div>
+
+              <div class="dropdown position-relative">
+                <a
+                  class="btn dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    class="align-self-end"
+                    src="assets/imgs/avatar-1.jpg"
+                    alt="Your profile image"
+                  />
+                </a>
+                <span
+                  class="badge rounded-circle bg-success position-absolute bottom-0 start-50 translate-middle-y p-2"
+                >
+                </span>
+                <div class="dropdown-menu dropdown-menu-end">
+                  <div class="d-flex px-3 justify-content-between">
+                    <div class="position-relative">
+                      <img
+                        class="w-75"
+                        src="assets/imgs/avatar-1.jpg"
+                        alt="Your Profile image"
+                      />
+                      <span
+                        class="badge rounded-circle bg-success position-absolute bottom-0 start-50 p-2"
+                      >
+                      </span>
+                    </div>
+                    <div
+                      class="yourInfo d-flex flex-column justify-content-center"
+                    >
+                      <h4 class="m-0 fw-bold">Jonathan Fontaine</h4>
+                      <p class="m-0 text-secondary fw-bold">
+                        jonathan@fontaine.com
+                      </p>
+                    </div>
+                  </div>
+                  <hr />
+                  <div class="px-3">
+                    <div class="d-flex">
+                      <i data-feather="user" class="iconDropdown"></i
+                      ><a class="dropdown-item" href="#">Profile</a>
+                    </div>
+                    <div class="d-flex">
+                      <i data-feather="star" class="iconDropdown"></i
+                      ><a class="dropdown-item" href="#">Subscriptions</a>
+                    </div>
+                    <div class="d-flex">
+                      <i data-feather="settings" class="iconDropdown"></i
+                      ><a class="dropdown-item" href="#">settings</a>
+                    </div>
+                  </div>
+
+                  <hr />
+                  <div class="d-flex px-3">
+                    <i data-feather="power" class="iconDropdown"></i
+                    ><a class="dropdown-item" href="#">Sign Out</a>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-fluid p-0">
+      <div id="hero" class="container-fluid d-md-flex align-items-center">
+        <div class="col-md-6 p-4">
+          <h1 class="pt-3 fw-bolder">Welcome Web Students!</h1>
+          <p class="fs-5">
+            Hand-picked Instructor and expertly crafted courses, designed for
+            the modern students for enterpreneur.
+          </p>
+          <button type="button" class="btn btn1">Browse Courses</button>
+          <button type="button" class="btn btn2">Are you instructor?</button>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="img-fluid mt-4 w-100 object-fit-fill"
+            src="assets/imgs/hero-img.png"
+            alt="Model photo"
+          />
+        </div>
+      </div>
+      <div
+        class="container-fluid px-lg-5 py-3 shadow-lg d-md-flex justify-content-center align-items-center"
+      >
+        <div class="info d-flex align-items-center px-lg-5 my-3">
+          <i data-feather="video"></i>
+          <div class="ps-3">
+            <h4>30,000 online courses</h4>
+            <p>Enjoy a variety of fresh topics</p>
+          </div>
+        </div>
+        <div class="info d-flex align-items-center px-lg-5 my-3">
+          <i data-feather="users"></i>
+          <div class="ps-3">
+            <h4>Expert instruction</h4>
+            <p>Find the right instructor for you</p>
+          </div>
+        </div>
+        <div class="info d-flex align-items-center px-lg-5 my-3">
+          <i data-feather="clock"></i>
+          <div class="ps-3">
+            <div>
+              <h4>Lifetime access</h4>
+              <p>Learn on your schedule</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-5">
+        <h2 class="ms-xl-5">Recommended to You</h2>
+        <div class="d-flex justify-content-center">
+          <div class="card shadow-lg">
+            <img
+              src="assets/imgs/course-graphql.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-2.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Brooklyn Simmons</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg">
+            <img
+              src="assets/imgs/course-javascript.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  A Complete Beginner's Guide to JavaScript
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      3.5 <span class="votes text-muted">(7,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $700
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$850</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-3.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Jenny Wilson</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg d-none d-sm-none d-md-block">
+            <img
+              src="assets/imgs/course-node.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-4.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Sina Ray</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg d-none d-sm-none d-md-none d-lg-block">
+            <img
+              src="assets/imgs/course-laravel.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-5.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Brooklyn Simmons</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5">
+        <div>
+          <div class="container-fluid mt-5">
+            <h2 class="ms-xl-5">Most Popular</h2>
+            <div class="d-flex justify-content-center">
+              <div class="card shadow-lg">
+                <img
+                  src="assets/imgs/course-graphql.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0 py-4">
+                  <div class="container">
+                    <h4 class="card-title fs-5">
+                      GraphQL: Introduction to GraphQL for beginners
+                    </h4>
+                    <div class="d-flex">
+                      <div class="d-flex me-3">
+                        <i data-feather="clock" class="clock"></i>
+                        <p>2h 40m</p>
+                      </div>
+                      <div class="d-flex">
+                        <i data-feather="bar-chart" class="barChart"></i>
+                        <p>Advance</p>
+                      </div>
+                    </div>
+                    <div class="rating d-flex">
+                      <div class="stars me-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                      <div class="score">
+                        <p class="text-warning fs-6">
+                          2.5 <span class="votes text-muted">(1,500)</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <h4 class="fs-3 fw-bold">
+                        $500
+                        <span
+                          class="fs-4 fw-medium text-muted text-decoration-line-through"
+                          >$600</span
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                  <hr />
+                  <div
+                    class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+                  >
+                    <img
+                      src="assets/imgs/avatar-2.jpg"
+                      alt=""
+                      class="profileImage"
+                    />
+                    <p class="m-0">Brooklyn Simmons</p>
+                    <i data-feather="bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card shadow-lg">
+                <img
+                  src="assets/imgs/course-javascript.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0 py-4">
+                  <div class="container">
+                    <h4 class="card-title fs-5">
+                      A Complete Beginner's Guide to JavaScript
+                    </h4>
+                    <div class="d-flex">
+                      <div class="d-flex me-3">
+                        <i data-feather="clock" class="clock"></i>
+                        <p>2h 40m</p>
+                      </div>
+                      <div class="d-flex">
+                        <i data-feather="bar-chart" class="barChart"></i>
+                        <p>Advance</p>
+                      </div>
+                    </div>
+                    <div class="rating d-flex">
+                      <div class="stars me-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                      <div class="score">
+                        <p class="text-warning fs-6">
+                          3.5 <span class="votes text-muted">(7,500)</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <h4 class="fs-3 fw-bold">
+                        $700
+                        <span
+                          class="fs-4 fw-medium text-muted text-decoration-line-through"
+                          >$850</span
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                  <hr />
+                  <div
+                    class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+                  >
+                    <img
+                      src="assets/imgs/avatar-3.jpg"
+                      alt=""
+                      class="profileImage"
+                    />
+                    <p class="m-0">Jenny Wilson</p>
+                    <i data-feather="bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card shadow-lg d-none d-sm-none d-md-block">
+                <img
+                  src="assets/imgs/course-node.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0 py-4">
+                  <div class="container">
+                    <h4 class="card-title fs-5">
+                      GraphQL: Introduction to GraphQL for beginners
+                    </h4>
+                    <div class="d-flex">
+                      <div class="d-flex me-3">
+                        <i data-feather="clock" class="clock"></i>
+                        <p>2h 40m</p>
+                      </div>
+                      <div class="d-flex">
+                        <i data-feather="bar-chart" class="barChart"></i>
+                        <p>Advance</p>
+                      </div>
+                    </div>
+                    <div class="rating d-flex">
+                      <div class="stars me-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                      <div class="score">
+                        <p class="text-warning fs-6">
+                          2.5 <span class="votes text-muted">(1,500)</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <h4 class="fs-3 fw-bold">
+                        $500
+                        <span
+                          class="fs-4 fw-medium text-muted text-decoration-line-through"
+                          >$600</span
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                  <hr />
+                  <div
+                    class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+                  >
+                    <img
+                      src="assets/imgs/avatar-4.jpg"
+                      alt=""
+                      class="profileImage"
+                    />
+                    <p class="m-0">Sina Ray</p>
+                    <i data-feather="bookmark"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="card shadow-lg d-none d-sm-none d-md-none d-lg-block">
+                <img
+                  src="assets/imgs/course-laravel.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body p-0 py-4">
+                  <div class="container">
+                    <h4 class="card-title fs-5">
+                      GraphQL: Introduction to GraphQL for beginners
+                    </h4>
+                    <div class="d-flex">
+                      <div class="d-flex me-3">
+                        <i data-feather="clock" class="clock"></i>
+                        <p>2h 40m</p>
+                      </div>
+                      <div class="d-flex">
+                        <i data-feather="bar-chart" class="barChart"></i>
+                        <p>Advance</p>
+                      </div>
+                    </div>
+                    <div class="rating d-flex">
+                      <div class="stars me-2">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-half"></i>
+                        <i class="bi bi-star"></i>
+                        <i class="bi bi-star"></i>
+                      </div>
+                      <div class="score">
+                        <p class="text-warning fs-6">
+                          2.5 <span class="votes text-muted">(1,500)</span>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <h4 class="fs-3 fw-bold">
+                        $500
+                        <span
+                          class="fs-4 fw-medium text-muted text-decoration-line-through"
+                          >$600</span
+                        >
+                      </h4>
+                    </div>
+                  </div>
+                  <hr />
+                  <div
+                    class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+                  >
+                    <img
+                      src="assets/imgs/avatar-5.jpg"
+                      alt=""
+                      class="profileImage"
+                    />
+                    <p class="m-0">Brooklyn Simmons</p>
+                    <i data-feather="bookmark"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="card shadow-lg">
+            <img
+              src="assets/imgs/course-graphql.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-6.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Brooklyn Simmons</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg">
+            <img
+              src="assets/imgs/course-javascript.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  A Complete Beginner's Guide to JavaScript
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      3.5 <span class="votes text-muted">(7,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $700
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$850</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-7.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Jenny Wilson</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg d-none d-sm-none d-md-block">
+            <img
+              src="assets/imgs/course-node.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-8.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Sina Ray</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg d-none d-sm-none d-md-none d-lg-block">
+            <img
+              src="assets/imgs/course-laravel.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-7.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Brooklyn Simmons</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid mt-5">
+        <h2 class="ms-xl-5">Trendings</h2>
+        <div class="d-flex justify-content-center">
+          <div class="card shadow-lg">
+            <img
+              src="assets/imgs/course-graphql.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-6.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Brooklyn Simmons</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg">
+            <img
+              src="assets/imgs/course-javascript.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  A Complete Beginner's Guide to JavaScript
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      3.5 <span class="votes text-muted">(7,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $700
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$850</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-4.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Jenny Wilson</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg d-none d-sm-none d-md-block">
+            <img
+              src="assets/imgs/course-node.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-2.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Sina Ray</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-lg d-none d-sm-none d-md-none d-lg-block">
+            <img
+              src="assets/imgs/course-laravel.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body p-0 py-4">
+              <div class="container">
+                <h4 class="card-title fs-5">
+                  GraphQL: Introduction to GraphQL for beginners
+                </h4>
+                <div class="d-flex">
+                  <div class="d-flex me-3">
+                    <i data-feather="clock" class="clock"></i>
+                    <p>2h 40m</p>
+                  </div>
+                  <div class="d-flex">
+                    <i data-feather="bar-chart" class="barChart"></i>
+                    <p>Advance</p>
+                  </div>
+                </div>
+                <div class="rating d-flex">
+                  <div class="stars me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  <div class="score">
+                    <p class="text-warning fs-6">
+                      2.5 <span class="votes text-muted">(1,500)</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="price">
+                  <h4 class="fs-3 fw-bold">
+                    $500
+                    <span
+                      class="fs-4 fw-medium text-muted text-decoration-line-through"
+                      >$600</span
+                    >
+                  </h4>
+                </div>
+              </div>
+              <hr />
+              <div
+                class="profileInfo d-flex justify-content-between align-items-center px-1 mt-4"
+              >
+                <img
+                  src="assets/imgs/avatar-8.jpg"
+                  alt=""
+                  class="profileImage"
+                />
+                <p class="m-0">Brooklyn Simmons</p>
+                <i data-feather="bookmark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="container py-3 mt-5">
+      <hr />
+      <div
+        class="container text-center text-muted fw-medium d-md-flex justify-content-between"
+      >
+        <p>© 2022 Geeks. All Rights Reserved.</p>
+        <div>
+          <span class="mx-2">Privacy</span>
+          <span class="mx-2">Terms</span>
+          <span class="mx-2">Feedbacks</span>
+          <span class="mx-2">Support</span>
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
